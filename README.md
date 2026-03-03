@@ -1,43 +1,29 @@
-# 💰 Dompet v1.0.0
-A simple offline personal finance app built with Flutter.
+## 🚀 Dompet v1.1.0
 
-Dompet adalah aplikasi pencatatan keuangan pribadi yang dirancang untuk membantu pengguna mencatat pemasukan dan pengeluaran secara cepat dan sederhana.
-
-Versi 1.0.0 merupakan initial release dengan fitur dasar pencatatan transaksi dan perhitungan saldo otomatis.
+Major feature update focused on usability and security improvements.
 
 ---
 
-## 🚀 Features (v1.0.0)
-
-### 💵 Transaction Recording
-- Tambah pemasukan
-- Tambah pengeluaran
-- Perhitungan saldo otomatis
-
-### 📊 Basic Dashboard
-- Menampilkan sisa saldo
-- Total pemasukan
-- Total pengeluaran
-
-### 🛡 Offline First
-- Semua data disimpan secara lokal
-- Tidak memerlukan koneksi internet
-- Fokus pada kesederhanaan dan performa
+### ✨ Added
+- Category management (add & edit categories)
+- Dashboard statistics with percentage chart
+- Encrypted backup & restore (AES)
+- Password-protected restore
+- Donation feature
 
 ---
 
-## 📦 Tech Stack
-
-- Flutter
-- SharedPreferences
-- intl
+### 🔐 Security
+- SHA-256 based key generation for backup encryption
+- Backup file stored as encrypted `.dat`
 
 ---
 
-## 🛠 Installation
+### 🛠 Improvements
+- Transaction validation (prevent insufficient balance)
+- UI consistency improvements
+- Better number formatting
 
-```bash
-git clone https://github.com/asyahisyam27-maker/Project_Dompet.git
-cd Project_Dompet
-flutter pub get
-flutter run
+---
+
+Thank you for using Dompet 💰
