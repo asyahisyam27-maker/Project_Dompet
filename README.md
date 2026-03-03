@@ -1,4 +1,6 @@
-## 🚀 Dompet v1.1.0
+# 💰 Dompet
+
+## 🚀 Current Version: v1.1.0
 
 Major feature update focused on usability and security improvements.
 
